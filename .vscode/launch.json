@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "Expo Web (Edge)",
+            "url": "http://localhost:8081", // Porta padrão do Expo
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "msedge.exe" // Pode ser necessário ajustar o caminho dependendo da sua instalação
+        }
+    ]
+}
